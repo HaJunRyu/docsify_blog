@@ -1,17 +1,10 @@
----
-title: Hexo블로그 만들기
-date: 2020-10-18 21:24:41
-categories: hexo
-tags: hexo
----
-
 # hexo블로그 만들기
 
 
 hexo블로그를 만들기 전 먼저 [git](https://gitforwindows.org/) 과 [node.js](https://nodejs.org/en/)를 설치해주시고 [github](https://github.com/)에 가입까지 완료해야한다.
-그리고 파일을 수정해줄 에디터도 필요한데 여기선 VScode를 기준으로 사용하겠다.
+그리고 파일을 수정해 줄 에디터도 필요한데 여기선 VScode를 기준으로 사용하겠다.
 
-## 1. git bash를 통해 hexo설치
+## git bash를 통해 hexo설치
 
 
 1. cd(change directory)를 통해 설치를 원하는 폴더로 이동

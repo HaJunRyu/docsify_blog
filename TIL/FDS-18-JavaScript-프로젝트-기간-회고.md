@@ -1,10 +1,3 @@
----
-title: FDS-18 JavaScript 프로젝트 기간 회고
-date: 2021-03-01 23:12:58
-categories: TIL
-tags: TIL
----
-
 # FDS-18 JavaScript 프로젝트 기간동안의 회고
 
 ## 2월 16일 ~ 2월 28일의 한 일과 느낀점 (JavaScript 프로젝트 준비와 진행기간)

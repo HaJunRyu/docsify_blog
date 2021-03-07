@@ -36,9 +36,22 @@
 * 🌏 web
 * - [pixel](web/pixel.md)
 
+* 📸 Git
+* - [브랜치 이름 변경 및 기본 브랜치 설정](Git/브랜치-이름-변경-및-기본-브랜치-설정.md)
+* - [git open](Git/git-open.md)
+* - [git LFS(Large File Storage)](Git/git-LFS-Large-File-Storage.md)
+
+* 🛠 개발도구 및 명령어
+* - [code명령어 사용법, VSCode를 git기본 에디터로 사용하기](개발도구&명령어/MAC-OS에서-code명령-사용법과-VSCode를-git의-기본-에디터로-사용하기.md)
+* - [HTMLHINT](개발도구&명령어/HTMLHint.md)
+* - [editorConfig](개발도구&명령어/editorConfig.md)
+
 * 🔍 알고리즘 및 문제풀이
 * - [이진검색](알고리즘&문제풀이/이진검색.md)
 * - [for문을 활용한 별 찍기](알고리즘&문제풀이/for문을-활용한-별찍기.md)
+
+* 🎸 기타
+* - [Hexo블로그 만들기](기타/hexo블로그-만들기.md)
 
 * 📖 TIL
 * - [20210306 docsify, devMatching](TIL/20210306-docsify,devMatching.md)
@@ -47,6 +60,7 @@
 * - [20210303-TIL](TIL/20210303-TIL.md)
 * - [20210302-TIL](TIL/20210302-TIL.md)
 * - [20210301-TIL](TIL/20210301-TIL.md)
+* - [FDS-18 JavaScript 프로젝트 기간동안의 회고](TIL/FDS-18-JavaScript-프로젝트-기간-회고)
 * - [20210215-TIL](TIL/20210215-TIL.md)
 * - [20210214-TIL](TIL/20210214-TIL.md)
 * - [20210213-TIL](TIL/20210213-TIL.md)
@@ -167,3 +181,4 @@
 * - [20201020-TIL](TIL/20201020-TIL.md)
 * - [20201019-TIL](TIL/20201019-TIL.md)
 * - [20201018-TIL](TIL/20201018-TIL.md)
+* - [TIL(Today I Learned) Start!](TIL/TIL-Today-I-Learned-Start!)
