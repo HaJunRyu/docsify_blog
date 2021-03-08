@@ -1,4 +1,4 @@
-* [🏠HOME](/)
+* [🏠 HOME](/)
 
 * 🐤 JavaScript
 * - [1바이트는 왜 8비트인가](JavaScript/1바이트는_왜_8비트인가.md)
@@ -29,8 +29,9 @@
 * - [vertical-align](CSS/vertical-align.md)
 * - [white-space](CSS/white-space.md)
 
-* 🖥 ComputerScience
-* - [인터프리터언어와 컴파일러언어.md](ComputerScience/인터프리터언어와-컴파일러언어.md)
+* 💻 ComputerScience
+* - [프로세스(process)](ComputerScience/프로세스-process.md)
+* - [인터프리터언어와 컴파일러언어](ComputerScience/인터프리터언어와-컴파일러언어.md)
 
 * 💾 DataBase
 * - [데이터 베이스의 개요](database/데이터-베이스의-개요.md)
@@ -57,6 +58,7 @@
 * - [Hexo블로그 만들기](기타/hexo블로그-만들기.md)
 
 * 📖 TIL
+* - [20210308 Component, 프로세스](TIL/20210308-Component,프로세스.md)
 * - [20210307 VirtualDOM, JSX](TIL/20210307-VirtualDOM,JSX.md)
 * - [20210306 docsify, devMatching](TIL/20210306-docsify,devMatching.md)
 * - [20210305 알고리즘, 데이터베이스](TIL/20210305-알고리즘,데이터베이스.md)
