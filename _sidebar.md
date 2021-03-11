@@ -59,6 +59,7 @@
 * - [Hexo블로그 만들기](기타/hexo블로그-만들기.md)
 
 * 📖 TIL
+* - [20210311 CDD, StoryBook, type검사](TIL/20210311-CDD,StoryBook,type검사.md)
 * - [20210310 컴포넌트 현강, 알고리즘 복잡도](TIL/20210310-컴포넌트-현강,알고리즘-복잡도.md)
 * - [20210309 CRA, 데이터베이스](TIL/20210309-CRA,데이터베이스.md)
 * - [20210308 Component, 프로세스](TIL/20210308-Component,프로세스.md)
