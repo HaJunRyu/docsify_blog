@@ -33,8 +33,9 @@
 * - [white-space](CSS/white-space.md)
 
 * 💻 ComputerScience
-* - [프로세스(process)](ComputerScience/프로세스-process.md)
 * - [인터프리터언어와 컴파일러언어](ComputerScience/인터프리터언어와-컴파일러언어.md)
+* - [프로세스(process)](ComputerScience/프로세스-process.md)
+* - [멀티 프로세스와 멀티 스레드](ComputerScience/멀티-프로세스와-멀티-스레드.md)
 
 * 💾 DataBase
 * - [데이터 베이스의 개요](database/데이터-베이스의-개요.md)
