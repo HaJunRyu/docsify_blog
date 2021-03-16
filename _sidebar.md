@@ -63,6 +63,7 @@
 * - [Hexo블로그 만들기](기타/hexo블로그-만들기.md)
 
 * 📖 TIL
+* - [20210316 MongoDB, 데이터베이스 백업](TIL/20210316-MongoDB,database-backup.md)
 * - [20210315 라이프사이클 메서드, 멀티 스레드, 가상 메모리](TIL/20210315-라이프사이클-메서드,멀티스레드,가상-메모리.md)
 * - [20210312 ref, 애드온, sass모듈](TIL/20210312-ref,애드온,sass모듈.md)
 * - [20210311 CDD, StoryBook, type검사](TIL/20210311-CDD,StoryBook,type검사.md)
