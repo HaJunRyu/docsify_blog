@@ -55,9 +55,10 @@
 * - [HTMLHINT](개발도구&명령어/HTMLHint.md)
 * - [editorConfig](개발도구&명령어/editorConfig.md)
 
-* 🔍 알고리즘 및 문제풀이
-* - [이진검색](알고리즘&문제풀이/이진검색.md)
-* - [for문을 활용한 별 찍기](알고리즘&문제풀이/for문을-활용한-별찍기.md)
+* 🔍 알고리즘&자료구조
+* - [이진검색](알고리즘&자료구조/이진검색.md)
+* - [for문을 활용한 별 찍기](알고리즘&자료구조/for문을-활용한-별찍기.md)
+* - [양방향 연결 리스트 (Doubly Linked List)](알고리즘&자료구조/DoublyLinkedList.md)
 
 * 🎸 기타
 * - [Hexo블로그 만들기](기타/hexo블로그-만들기.md)
