@@ -1,6 +1,7 @@
 # Hooks
 Hooks는 리액트 16.8 버전에 새로 도입된 기능으로 함수형 컴포넌트에서도 상태 관리를 할 수 있는 useState, 렌더링 직후의 작업을 설정하는 useEffect등의 기능을 제공하여 기존의 함수형 컴포넌트에서 할 수 없었던 다양한 작업들을 할 수 있게 해준다.  
 
+
 ## useState
 useState는 가장 기본적인 Hook이다. 함수형 컴포넌트에서도 가변적인 상태를 지닐 수 있게 해준다. 사용법은 일단 import문으로 node_modules의 react를 불러와 useState를 디스트럭처링 할당으로 꺼내어 사용한다.  
 ```javascript
@@ -213,8 +214,273 @@ const Input = () => {
 };
 
 export default Input;
-
 ```
 
 ## useMemo
 useMemo를 사용하면 함수 컴포넌트 내부에서 발생하는 연산을 최적화 시킬 수 있다. 클래스 컴포넌트에서는 shouldComponentUpdate메서드와 같은 용도로 쓴다고 볼 수 있다. useMemo는 boolean값을 리턴해서 판단하지는 않고 useMemo의 첫 번째 인수로는 작업 할 내용을 담은 콜백함수, 두번째 인수로는 배열을 전달하는데 배열의 요소에 있는 값이 바뀌었을때만 연산을 실행하게끔 해주는 용도이다.
+
+아래 코드는 각각의 number값이 담긴 배열인 list가 변화되었을때만 useMemo에 전달된 콜백함수가 호출되는 예제이다. useMemo의 두번째 인수 값으로 list가 담긴 배열을 전달해주었다.
+
+```javascript
+import React, { useState, useMemo, useRef } from 'react';
+
+const getAverage = list => {
+  const sum = list.reduce((cur, num) => cur + +num, 0);
+  console.log(sum);
+  return list.length ? sum / list.length : 0;
+};
+
+export default function Average() {
+  const [list, setList] = useState([]);
+  const [number, setNumber] = useState('');
+
+  const numberHandler = ({ target }) => {
+    setNumber(target.value);
+  };
+
+  const addList = () => {
+    if (isNaN(number) || !number) {
+      setNumber('');
+      return;
+    }
+    setList([...list, number]);
+    setNumber('');
+  };
+
+  const avg = useMemo(() => getAverage(list), [list]);
+
+  return (
+    <div>
+      <input value={number} onChange={numberHandler} placeholder='숫자만 입력' />
+      <button onClick={addList}>추가</button>
+      <ul>
+        {list.map(number => {
+          return <li>{number}</li>;
+        })}
+      </ul>
+      <span>{avg}</span>
+    </div>
+  );
+}
+```
+
+## useCallback
+useCallback은 useMemo와 아주 비슷하게 렌더링 성능을 최적화 해야하는 상황에서 사용한다. useCallback을 사용하면 이벤트 핸들러 함수를 필요할 때만 생성할 수 있게 된다.  
+
+위의 useMemo를 이용한 list의 평균값을 구하는 예제에서 numberHandler와 addList함수는 컴포넌트가 리렌더링 될 때마다 함수가 새로 생성된다. 만약 컴포넌트의 렌더링이 자주 발생하거나 렌더링 해야 할 컴포넌트의 갯수가 많아진다면 애플리케이션의 성능에 안좋은 영향을 주게 될 것이다.
+
+아래 코드는 위의 useMemo에서 작성한 코드와 동일하게 동작한다.
+```javascript
+import React, { useState, useMemo, useCallback } from 'react';
+
+const getAverage = list => {
+  const sum = list.reduce((cur, num) => cur + +num, 0);
+  return list.length ? sum / list.length : 0;
+};
+
+export default function Average() {
+  const [list, setList] = useState([]);
+  const [number, setNumber] = useState('');
+
+// useCallback은 첫번째 인수로 전달 된 콜백함수 자체를 반환한다.
+  const numberHandler = useCallback(({ target }) => {
+    setNumber(target.value);
+  }, []);
+
+// 단 두번째 인수로 전달 된 배열내의 요소(상태)가 변할때만 반환해준다.
+  const addList = useCallback(() => {
+    if (isNaN(number) || !number) {
+      setNumber('');
+      return;
+    }
+    setList([...list, number]);
+    setNumber('');
+  }, [number, list]);
+
+// useMemo는 첫번째 인수로 전달 된 콜백함수의 리턴값, 즉 여기선 getAverage함수를 반환한다.
+  const avg = useMemo(() => getAverage(list), [list]);
+
+  return (
+    <div>
+      <input value={number} onChange={numberHandler} placeholder='숫자만 입력' />
+      <button onClick={addList}>추가</button>
+      <ul>
+        {list.map(number => {
+          return <li>{number}</li>;
+        })}
+      </ul>
+      <span>{avg}</span>
+    </div>
+  );
+}
+```
+
+하지만 useMemo와 useCallback의 차이점은 useMemo는 첫번째 인수로 전달된 콜백함수의 return한 값을 반환하고 useCallback은 첫번째 인수로 전달된 콜백함수 자체를 반환하게 된다.  
+그래서 숫자, 문자열, 객체처럼 일반 값을 return값을 통해 재사용하려면 useMemo를, 함수 자체를 재활용하고 싶다면 useCallback은 사용하면 될 것 같다.
+
+### 정리
+- useMemo : 첫번째 인수로 전달 된 콜백함수의 return값을 반환함
+- useCallback : 첫번째 인수로 전달 된 함수(콜백함수) 자체를 반환함
+
+## useRef
+useRef는 함수 컴포넌트에서 ref를 쉽게 사용할 수 있도록 해준다. useMemo와 useCallback예제에서 사용했던 Average컴포넌트에서 추가 버튼을 눌렀을때 useRef를 이용하여 input에 focus가 되게끔 작성해보자.
+
+```javascript
+import React, { useState, useMemo, useCallback, useRef } from 'react';
+
+const getAverage = list => {
+  const sum = list.reduce((cur, num) => cur + +num, 0);
+  return list.length ? sum / list.length : 0;
+};
+
+export default function Average() {
+  const [list, setList] = useState([]);
+  const [number, setNumber] = useState('');
+  const $input = useRef(null);
+
+  const numberHandler = useCallback(({ target }) => {
+    setNumber(target.value);
+  }, []);
+
+  const addList = useCallback(() => {
+    $input.current.focus();
+    if (isNaN(number) || !number) {
+      setNumber('');
+      return;
+    }
+    setList([...list, number]);
+    setNumber('');
+  }, [number, list]);
+
+  const avg = useMemo(() => getAverage(list), [list]);
+
+  return (
+    <div>
+      <input ref={$input} value={number} onChange={numberHandler} placeholder='숫자만 입력' />
+      <button onClick={addList}>추가</button>
+      <ul>
+        {list.map(number => {
+          return <li>{number}</li>;
+        })}
+      </ul>
+      <span>{avg}</span>
+    </div>
+  );
+}
+```
+
+클래스 컴포넌트와 다른점은 바로 `ref.focus()` 메서드를 사용할 수 있는것이 아닌 `current`라는 프로퍼티에 접근해야지만 해당 ref의 실제 Element에 접근할 수 있다.    
+```javascript
+ref.current.focus();
+```
+
+### ref를 활용한 지역 변수 사용
+컴포넌트 지역 변수를 사용해야 할 때도 useRef를 활용할 수 있다. 여기서 지역 변수는 렌더링과 상관없이 바뀔 수 있는 값을 의미한다. 클래스 형태로 작성 된 컴포넌트의 경우에는 지역 변수를 사용해야 할 때 아래와 같이 클래스 멤버(static멤버) 형태로 작성할 수 있다.  
+```javascript
+import React, { Component } from 'react';
+
+class MyComponent extends Component {
+  id = 1
+  setId = (n) => {
+    this.id = n;
+  }
+  printId = () => {
+    console.log(this.id);
+  }
+  render() {
+    return (
+      <div></div>
+    );
+  }
+}
+
+export default MyComponent;
+```
+
+위와 같은 코드를 함수 컴포넌트로 작성할때 useRed를 활용할 수 있다.  
+```javascript
+import React, { useRef } from 'react';
+ 
+const Localvariable = () => {
+  const id = useRef(1);
+  const setId = (newId) => {
+    id.current = newId;
+  }
+  const printId = () => {
+    console.log(id.current);
+  }
+  return (
+    <div></div>
+  );
+};
+ 
+export default Localvariable;
+```
+
+ref의 안의 값이 바뀌더라도 컴포넌트는 다시 렌더링 되지 않는다. 컴포넌트는 props, state의 변경 또는 부모 요소가 렌더링(리렌더링) 됐을때와 강제로 렌더링 시켯을때만 다시 렌더링되게 된다. 그렇기 때문에 렌더링과 관련되지 않은 값을 관리할 때는 이런식으로 ref를 활용해 줄 수도 있다.
+
+## 커스텀 Hooks 만들기
+여러 컴포넌트에서 비슷한 기능을 반복해서 사용한다면 Hook은 어차피 함수이기 떄문에 커스텀 Hook을 만들어주어 재사용 해주면 될 것이다.  
+
+useReducer에서 작성 했던 여러가지 input을 관리하는 코드를 useInputs라는 Hooks으로 분리해보자.
+
+```javascript
+import { useReducer } from 'react';
+
+function reducer(state, action) {
+  return {
+    ...state,
+    [action.name]: action.value
+  };
+}
+
+export default function useInputs(initialForm) {
+  const [state, dispatch] = useReducer(reducer, initialForm);
+  const onChange = e => {
+    dispatch(e.target);
+  };
+  return [state, onChange];
+}
+```
+
+그리고 Info 컴포넌트를 생성하여 직접 만든 커스텀 Hooks을 사용해보자.
+```javascript
+import React from 'react';
+import useInputs from 'Hooks/useInputs';
+
+const Info = () => {
+  const [state, setState] = useInputs({
+    name: '',
+    nickname: ''
+  });
+
+  const { name, nickname } = state;
+
+  return (
+    <>
+      {/* 접근성을 고려한 aria-label */}
+      <label aria-label='이름'>
+        <input name='name' value={name} onChange={setState} />
+      </label>
+      <label aria-label='닉네임'>
+        <input name='nickname' value={nickname} onChange={setState} />
+      </label>
+      <div>이름: {name}</div>
+      <div>닉네임: {nickname}</div>
+    </>
+  );
+};
+
+export default Info;
+```
+
+input을 사용해야 하는 상황에서 상태까지 관리하며 범용적으로 사용할 수 있는 Hooks를 만들어 재사용할 수 있게 된 것이다.
+
+## Hooks 라이브러리
+빌트인 및 커스텀 Hooks말고도 다른 개발자들이 만들어 라이브러리로 배포해놓은 것들을 적절히 잘 사용한다면 프로젝트의 생산성이 올라갈 것이다.
+- [Collection of React Hooks](https://nikgraf.github.io/react-hooks/)  
+- [rehooks](https://github.com/rehooks/awesome-react-hooks)
+
+## 정리
+이렇게 React에서 Hooks를 사용하면 클래스 컴포넌트에서 사용하는 기능을 대부분 구현할 수 있다. 물론 Hooks가 등장했다고 해서 클래스 컴포넌트를 사용되는것이 잘못된 방식은 아니라고 생각한다. 오히려 클래스 컴포넌트에서 더욱 명확하고 확실하게 처리되는 기능들이 있고 함수의 한계때문에 구현하지 못하는 기능들도 몇가지 있다.  
+React 공식문서에서도 기존의 함수 컴포넌트가 React개발의 새로운 패러다임이 될 것이라고 하지만 클래스 컴포넌트도 앞으로 계속 지원될 것이라고 한다. 그렇기 때문에 이미 작성되어 있는 클래스 컴포넌트를 함수 컴포넌트로 바꾼다거나 하는 일은 하지 않아도 된다. 하지만 클래스 컴포넌트로 구현된 코드를 유지보수 해야 할 일도 있을수 있으니 클래스 컴포넌트로 개발하는 방식을 아는것도 필수사항이라고 생각한다.
