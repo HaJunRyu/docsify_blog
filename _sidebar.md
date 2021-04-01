@@ -65,7 +65,7 @@
 * - [Hexo블로그 만들기](기타/hexo블로그-만들기.md)
 
 * 📖 TIL
-* - [20210401 firestore, graph 자료구조](TIL/20210331-firestore,graph자료구조.md)
+* - [20210401 redux-thunk](TIL/20210401-redux-thunk.md)
 * - [20210331 firestore, graph 자료구조](TIL/20210331-firestore,graph자료구조.md)
 * - [20210330 ReactDOM.portal, forwardRef, firebase 인증](TIL/20210330-ReactDOM.portal,forwardRef,firebase-인증.md)
 * - [20210329 redux, 페이지 교체 알고리즘](TIL/20210329-redux,페이지-교체-알고리즘.md)
