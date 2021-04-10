@@ -65,6 +65,7 @@
 * - [Hexo블로그 만들기](기타/hexo블로그-만들기.md)
 
 * 📖 TIL
+* - [20210410 프로젝트 파일 배포, 제품 백로그 정리, wiki 작성](TIL/20210410-TIL-프로젝트-파일-배포,제품-백로그-정리,wiki-작성.md)
 * - [20210409 final프로젝트 시작](TIL/20210409-TIL-final프로젝트-시작.md)
 * - [20210401 redux-thunk](TIL/20210401-redux-thunk.md)
 * - [20210331 firestore, graph 자료구조](TIL/20210331-firestore,graph자료구조.md)
