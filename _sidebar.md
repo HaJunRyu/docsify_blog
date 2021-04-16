@@ -65,6 +65,7 @@
 * - [Hexo블로그 만들기](기타/hexo블로그-만들기.md)
 
 * 📖 TIL
+* - [20210415 Github회원가입, ec2인스턴스에 서버 구동, styled-components 버그픽스](TIL/20210415-TIL-Github회원가입,ec2인스턴스에-서버-구동,styled-components-버그픽스.md)
 * - [20210414 프로젝트 기획문서 작성, passport.js 리팩토링, Footer 컴포넌트, Page 컴포넌트 생성](TIL/20210414-TIL-프로젝트-기획문서-작성,passport.js-리팩토링,Footer-컴포넌트,Page-컴포넌트-생성.md)
 * - [20210413 Header컴포넌트, passport.js, 라우트 설정](TIL/20210413-TIL-Header컴포넌트,passport.js,라우트-설정.md)
 * - [20210412 JWT토근 발급, MySQL연동하여 일반 회원가입, 로그인 구현](TIL/20210412-TIL-JWT토근-발급,MySQL연동하여-일반-회원가입,로그인-구현.md)
