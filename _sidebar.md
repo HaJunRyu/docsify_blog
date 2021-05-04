@@ -65,6 +65,7 @@
 * - [데이터 베이스의 개요](database/데이터-베이스의-개요.md)
 * - [AWS-EC2-인스턴스-생성](database/AWS-EC2-인스턴스-생성.md)
 * - [EC2인스턴스에 MongoDB 설치 및 GUI 사용법](database/EC2인스턴스에-MongoDB-설치.md)
+* - [CyberDuck GUI로 서버에 파일 전송하기](database/cyberDuck-GUI로-서버에-파일-전송하기.md)
 
 </details>
 
