@@ -1,12 +1,18 @@
 * [🏠 HOME](/)
 
-* 🐤 JavaScript
+<details>
+    <summary>🐤 JavaScript</summary>  
+
 * - [1바이트는 왜 8비트인가](JavaScript/1바이트는_왜_8비트인가.md)
 * - [모듈](JavaScript/모듈.md)
 * - [제너레이터-async-await](JavaScript/제너레이터-async-await.md)
 * - [DOMContentLoaded, load 이벤트](JavaScript/DOMContentLoaded,load-이벤트.md)
 
-* 💎 React
+</details>
+
+<details>
+    <summary>💎 React</summary>  
+
 * - [React를 사용하는 이유](React/React를-사용하는-이유.md)
 * - [Virtual DOM](React/Virtual-DOM.md)
 * - [JSX](React/JSX.md)
@@ -17,7 +23,11 @@
 * - [Hooks](React/Hooks.md)
 * - [Router](React/Router.md)
 
-* 📝 HTML
+</details>
+
+<details>
+    <summary>📝 HTML</summary>  
+
 * - [인용문(q, blockquote)](HTML/인용문-q,blockquote.md)
 * - [abbr](HTML/abbr.md)
 * - [dl, dt, dd](HTML/dl,dt,dd.md)
@@ -26,7 +36,11 @@
 * - [form태그 내부의 접근성](HTML/form태그-내부의-접근성.md)
 * - [HTML5 markup](HTML/HTML5-markup.md)
 
-* 🎨 CSS
+</details>
+
+<details>
+    <summary>🎨 CSS</summary>
+
 * - [a11y-hidden](CSS/a11y-hidden.md)
 * - [box-sizing](CSS/box-sizing.md)
 * - [float](CSS/float.md)
@@ -34,38 +48,73 @@
 * - [vertical-align](CSS/vertical-align.md)
 * - [white-space](CSS/white-space.md)
 
-* 💻 ComputerScience
+</details>
+
+<details>
+    <summary>💻 ComputerScience</summary>
+
 * - [인터프리터언어와 컴파일러언어](ComputerScience/인터프리터언어와-컴파일러언어.md)
 * - [프로세스(process)](ComputerScience/프로세스-process.md)
 * - [멀티 프로세스와 멀티 스레드](ComputerScience/멀티-프로세스와-멀티-스레드.md)
 
-* 💾 DataBase
+</details>
+
+<details>
+    <summary>💾 DataBase</summary>
+
 * - [데이터 베이스의 개요](database/데이터-베이스의-개요.md)
 * - [AWS-EC2-인스턴스-생성](database/AWS-EC2-인스턴스-생성.md)
 * - [EC2인스턴스에 MongoDB 설치 및 GUI 사용법](database/EC2인스턴스에-MongoDB-설치.md)
 
-* 🌏 web
+</details>
+
+<details>
+    <summary>🌏 web</summary>
+
 * - [pixel](web/pixel.md)
 
-* 📸 Git
+</details>
+
+<details>
+    <summary>📸 Git</summary>
+
 * - [브랜치 이름 변경 및 기본 브랜치 설정](Git/브랜치-이름-변경-및-기본-브랜치-설정.md)
 * - [git open](Git/git-open.md)
 * - [git LFS(Large File Storage)](Git/git-LFS-Large-File-Storage.md)
 
-* 🛠 개발도구 및 명령어
+</details>
+
+<details>
+    <summary>🛠 개발도구 및 명령어</summary>
+
 * - [code명령어 사용법, VSCode를 git기본 에디터로 사용하기](개발도구&명령어/MAC-OS에서-code명령-사용법과-VSCode를-git의-기본-에디터로-사용하기.md)
 * - [HTMLHINT](개발도구&명령어/HTMLHint.md)
 * - [editorConfig](개발도구&명령어/editorConfig.md)
 
-* 🔍 알고리즘&자료구조
+</details>
+
+<details>
+    <summary>🔍 알고리즘&자료구조</summary>
+
 * - [이진검색](알고리즘&자료구조/이진검색.md)
 * - [for문을 활용한 별 찍기](알고리즘&자료구조/for문을-활용한-별찍기.md)
 * - [양방향 연결 리스트 (Doubly Linked List)](알고리즘&자료구조/DoublyLinkedList.md)
 
-* 🎸 기타
+</details>
+
+<details>
+    <summary>🎸 기타</summary>
+
 * - [Hexo블로그 만들기](기타/hexo블로그-만들기.md)
 
-* 📖 TIL
+</details>
+
+<details>
+    <summary>📖 TIL</summary>
+
+<details class="sub-details">
+    <summary>2021년 4월</summary>
+
 * - [20210427 프로젝트 수정 삭제 api, 포트폴리오 수정 api, 회원 탈퇴 api 생성, 404페이지 생성](TIL/20210427-TIL프로젝트-수정-삭제-api,포트폴리오-수정-api,회원-탈퇴-api-생성,404페이지-생성.md)
 * - [20210426 프로젝트 배포 테스트, 회원가입 버그 수정](TIL/20210426-TIL프로젝트-배포-테스트,회원가입-버그-수정.md)
 * - [20210422 프로젝트 트러블 슈팅, 프로폴리오 페이지의 레이아웃 작업](TIL/20210422-TIL-프로젝트-트러블-슈팅,프로폴리오-페이지의-레이아웃-작업.md)
@@ -79,6 +128,12 @@
 * - [20210410 프로젝트 파일 배포, 제품 백로그 정리, wiki 작성](TIL/20210410-TIL-프로젝트-파일-배포,제품-백로그-정리,wiki-작성.md)
 * - [20210409 final프로젝트 시작](TIL/20210409-TIL-final프로젝트-시작.md)
 * - [20210401 redux-thunk](TIL/20210401-redux-thunk.md)
+
+</details>
+
+<details class="sub-details">
+    <summary>2021년 3월</summary>
+
 * - [20210331 firestore, graph 자료구조](TIL/20210331-firestore,graph자료구조.md)
 * - [20210330 ReactDOM.portal, forwardRef, firebase 인증](TIL/20210330-ReactDOM.portal,forwardRef,firebase-인증.md)
 * - [20210329 redux, 페이지 교체 알고리즘](TIL/20210329-redux,페이지-교체-알고리즘.md)
@@ -106,7 +161,13 @@
 * - [20210303-TIL](TIL/20210303-TIL.md)
 * - [20210302-TIL](TIL/20210302-TIL.md)
 * - [20210301-TIL](TIL/20210301-TIL.md)
-* - [FDS-18 JavaScript 프로젝트 기간동안의 회고](TIL/FDS-18-JavaScript-프로젝트-기간-회고)
+
+</details>
+
+<details class="sub-details">
+    <summary>2021년 2월</summary>
+
+* - [20210216 ~ 20210228 JavaScript 프로젝트 기간동안의 회고](TIL/FDS-18-JavaScript-프로젝트-기간-회고)
 * - [20210215-TIL](TIL/20210215-TIL.md)
 * - [20210214-TIL](TIL/20210214-TIL.md)
 * - [20210213-TIL](TIL/20210213-TIL.md)
@@ -122,6 +183,12 @@
 * - [20210203-TIL](TIL/20210203-TIL.md)
 * - [20210202-TIL](TIL/20210202-TIL.md)
 * - [20210201-TIL](TIL/20210201-TIL.md)
+
+</details>
+
+<details class="sub-details">
+    <summary>2021년 1월</summary>
+
 * - [20210131-TIL](TIL/20210131-TIL.md)
 * - [20210130-TIL](TIL/20210130-TIL.md)
 * - [20210129-TIL](TIL/20210129-TIL.md)
@@ -153,6 +220,12 @@
 * - [20210103-TIL](TIL/20210103-TIL.md)
 * - [20210102-TIL](TIL/20210102-TIL.md)
 * - [20210101-TIL](TIL/20210101-TIL.md)
+
+</details>
+
+<details class="sub-details">
+    <summary>2020년 12월</summary>
+
 * - [20201231-TIL](TIL/20201231-TIL.md)
 * - [20201230-TIL](TIL/20201230-TIL.md)
 * - [20201229-TIL](TIL/20201229-TIL.md)
@@ -183,6 +256,12 @@
 * - [20201203-TIL](TIL/20201203-TIL.md)
 * - [20201202-TIL](TIL/20201202-TIL.md)
 * - [20201201-TIL](TIL/20201201-TIL.md)
+
+</details>
+
+<details class="sub-details">
+    <summary>2020년 11월</summary>
+
 * - [20201130-TIL](TIL/20201130-TIL.md)
 * - [20201129-TIL](TIL/20201129-TIL.md)
 * - [20201128-TIL](TIL/20201128-TIL.md)
@@ -213,6 +292,12 @@
 * - [20201103-TIL](TIL/20201103-TIL.md)
 * - [20201102-TIL](TIL/20201102-TIL.md)
 * - [20201101-TIL](TIL/20201101-TIL.md)
+
+</details>
+
+<details class="sub-details">
+    <summary>2020년 10월</summary>
+
 * - [20201031-TIL](TIL/20201031-TIL.md)
 * - [20201030-TIL](TIL/20201030-TIL.md)
 * - [20201029-TIL](TIL/20201029-TIL.md)
@@ -227,4 +312,9 @@
 * - [20201020-TIL](TIL/20201020-TIL.md)
 * - [20201019-TIL](TIL/20201019-TIL.md)
 * - [20201018-TIL](TIL/20201018-TIL.md)
+
+</details>
+
 * - [TIL(Today I Learned) Start!](TIL/TIL-Today-I-Learned-Start!)
+
+</details>
