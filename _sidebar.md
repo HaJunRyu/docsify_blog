@@ -91,6 +91,7 @@
 * - [code명령어 사용법, VSCode를 git기본 에디터로 사용하기](개발도구&명령어/MAC-OS에서-code명령-사용법과-VSCode를-git의-기본-에디터로-사용하기.md)
 * - [HTMLHINT](개발도구&명령어/HTMLHint.md)
 * - [editorConfig](개발도구&명령어/editorConfig.md)
+* - [Shell 명령어 (CLI)](개발도구&명령어/shell명령어.md)
 
 </details>
 
