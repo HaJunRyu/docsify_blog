@@ -115,6 +115,13 @@
     <summary>📖 TIL</summary>
 
 <details class="sub-details">
+    <summary>2021년 5월</summary>
+
+* - [20210510 S3 버그픽스, MySQL인코딩 타입 변경](TIL/20210510-TIL-S3버그픽스,MySQL인코딩-타입-변경.md)
+
+</details>
+
+<details class="sub-details">
     <summary>2021년 4월</summary>
 
 * - [React프로젝트 회고 20210409 ~ 20210430](TIL/React프로젝트-회고.md)
