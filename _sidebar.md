@@ -117,6 +117,7 @@
 <details class="sub-details">
     <summary>2021년 5월</summary>
 
+* - [20210517 댓글 테이블 설계 및 변경, JS 계산기 예제](TIL/20210517-TIL-댓글-테이블-설계,JS계산기-예제.md)
 * - [20210511 useDetectViewport를 media쿼리로 리팩토링](TIL/20210511-TIL-useDetectViewport를-media쿼리로-리팩토링.md)
 * - [20210510 S3 버그픽스, MySQL인코딩 타입 변경](TIL/20210510-TIL-S3버그픽스,MySQL인코딩-타입-변경.md)
 
