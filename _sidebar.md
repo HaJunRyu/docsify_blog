@@ -117,6 +117,7 @@
 <details class="sub-details">
     <summary>2021년 5월</summary>
 
+* - [20210521 MySQL JOIN개념 공부 및 쿼리문 작성, IntersectionObserver 무한스크롤](TIL/20210521-TIL-MySQL-JOIN개념-공부-및-쿼리문-작성,IntersectionObserver-무한스크.md)
 * - [20210520 대댓글 Update, Delete, 무한스크롤 시크릿코드 강의 시청, 디바운스 리마인드](TIL/20210520-TIL-대댓글-Update,Delete,무한스크롤-시크릿코드-강의-시청,디바운스-리마인드.md)
 * - [20210519 대댓글 Create, Read](TIL/20210519-TIL-대댓글-Create,Read.md)
 * - [20210518 댓글 Create, Read, UserNavigator수정, JS 기초다지기](TIL/20210518-TIL-댓글-Create,Read,UserNavigator수정,-JS-기초다지기.md)
