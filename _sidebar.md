@@ -117,6 +117,7 @@
 <details class="sub-details">
     <summary>2021년 5월</summary>
 
+* - [20210529 Devfolio배포, 블랙커피 스터디 미션 프로젝트 초기설정](TIL/20210529-TIL-Devfolio배포,블랙커피-스터디-미션-프로젝트-초기설정.md)
 * - [20210528 Devfolio version2 끝](TIL/20210528-TIL-Devfolio-version2-끝.md)
 * - [20210527 프로젝트 조회 페이지 리팩토링 완료, 제목 기준 검색 api생성, jwt verify](TIL/20210527-TIL-프로젝트-조회-페이지-리팩토링-완료,제목-기준-검색-api생성,jwt-verify.md)
 * - [20210526 프로젝트 조회 페이지 리팩토링, 블랙커피 스터디 시작](TIL/20210526-TIL-프로젝트-조회-페이지-리팩토링,블랙커피-스터디-시작.md)
