@@ -70,6 +70,13 @@
 </details>
 
 <details>
+    <summary>🧊 webpack</summary>
+
+* - [webpack](Webpack/webpack.md)
+
+</details>
+
+<details>
     <summary>🌏 web</summary>
 
 * - [pixel](web/pixel.md)
