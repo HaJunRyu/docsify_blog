@@ -124,6 +124,7 @@
 <details class="sub-details">
     <summary>2021년 5월</summary>
 
+* - [20210604 webpack기본 설정 완료, postcss, url-loader](TIL/20210604-TIL-webpack기본-설정-완료,postcss,url-loader.md)
 * - [20210603 webpack 공부 및 설정 연습](TIL/20210603-TIL-webpack-공부-및-설정-연습.md)
 * - [20210602 블랙커피 스터디 온라인세션](TIL\20210602-TIL-블랙커피-스터디-온라인세션.md)
 * - [20210531 scroll이벤트 무한스크롤, innerHTML 이벤트 바인딩](TIL/20210531-TIL-scroll이벤트-무한스크롤,innerHTML이벤트-바인딩.md)
