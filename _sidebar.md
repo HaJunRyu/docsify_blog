@@ -124,6 +124,7 @@
 <details class="sub-details">
     <summary>2021년 6월</summary>
 
+* - [20210616 Set, Greedy](TIL/20210616-TIL-Set,Greedy.md)
 * - [20210610 autocomplete, 잡생각](TIL/20210610-TIL-autocomplete,잡생각.md)
 * - [20210609 블랙커피 스터디 두번째 온라인 세션](TIL/20210609-TIL-블랙커피-스터디-두번째-온라인-세션.md)
 * - [20210608 네카라쿠배 조교 면접, 지하철 노선도 SPA화 완성, JSON server 적용](TIL/20210608-TIL-네카라쿠배-조교-면접,지하철-노선도-SPA화-완성,JSON-server-적용.md)
