@@ -124,6 +124,7 @@
 <details class="sub-details">
     <summary>2021년 6월</summary>
 
+* - [20210623 공부환경 개선, TypeScript기초, 웹 컴포넌트](TIL/20210623-TIL-공부환경-개선,TypeScript기초,웹-컴포넌트.md)
 * - [20210618 렌더링 엔진의 설계, 가상DOM과 diff알고리즘](TIL/20210618-TIL-렌더링-엔진의-설계,가상DOM과-diff알고리즘.md)
 * - [20210615 Set, Greedy](TIL/20210616-TIL-Set,Greedy.md)
 * - [20210610 autocomplete, 잡생각](TIL/20210610-TIL-autocomplete,잡생각.md)
