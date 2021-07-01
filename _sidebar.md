@@ -122,9 +122,16 @@
     <summary>📖 TIL</summary>
 
 <details class="sub-details">
+    <summary>2021년 7월</summary>
+
+- - [20210701 반응형 프로그래밍, 프로그래머스 실력체크](TIL/20210701-TIL-반응형-프로그래밍,프로그래머스-실력체크.md)
+
+</details>
+
+<details class="sub-details">
     <summary>2021년 6월</summary>
 
-- - [20210629 diff 알고르즘 따라하기, 반응형 프로그래밍](TIL/20210629-TIL-diff-알고르즘-따라하기,반응형-프로그래밍.md)
+- - [20210629 diff 알고리즘 따라하기, 반응형 프로그래밍](TIL/20210629-TIL-diff-알고리즘-따라하기,반응형-프로그래밍.md)
 - - [20210628 TypeScript인강, 옵저버 패턴](TIL/20210628-TIL-TypeScript인강,옵저버-패턴.md)
 - - [20210625 TypeScript 고급타입, frameworkless routing](TIL/20210625-TIL-TypeScript-고급타입,frameworkless-routing.md)
 - - [20210624 스터디카페 탐방, TypeScript인강, HTTP요청](TIL/20210624-TIL-스터디카페-탐방,TypeScript인강,HTTP요청.md)
