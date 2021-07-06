@@ -124,6 +124,7 @@
 <details class="sub-details">
     <summary>2021년 7월</summary>
 
+- - [20210706 redux와 상태관리 패턴](TIL/20210706-TIL-redux와-상태관리-패턴.md)
 - - [20210701 반응형 프로그래밍, 프로그래머스 실력체크](TIL/20210701-TIL-반응형-프로그래밍,프로그래머스-실력체크.md)
 
 </details>
