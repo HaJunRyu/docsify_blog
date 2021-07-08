@@ -14,6 +14,7 @@
     <summary>🪡 Typescript</summary>
 
 - - [Typescript란?](Typescript/Typescript란.md)
+- - [개발환경](Typescript/개발-환경.md)
 
 </details>
 
