@@ -15,6 +15,7 @@
 
 - - [Typescript란?](Typescript/Typescript란.md)
 - - [개발환경](Typescript/개발-환경.md)
+- - [타입 기본](Typescript/타입-기본.md)
 
 </details>
 
