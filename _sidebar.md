@@ -30,6 +30,7 @@
 - - [ref(클래스 컴포넌트)](React/ref.md)
 - - [라이프사이클 메서드(Lifecycle method)](React/라이프사이클-메서드.md)
 - - [Hooks](React/Hooks.md)
+- - [클래스 컴포넌트와 함수 컴포넌트](React/클래스-컴포넌트와-함수-컴포넌트.md)
 - - [Router](React/Router.md)
 
 </details>
