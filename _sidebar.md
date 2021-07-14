@@ -18,6 +18,7 @@
 - - [타입 기본](Typescript/타입-기본.md)
 - - [인터페이스](Typescript/인터페이스.md)
 - - [타입 별칭(Type Aliases)](<Typescript/타입-별칭(Type-Aliases).md>)
+- - [제네릭(Generic)](<Typescript/제네릭(Generic).md>)
 
 </details>
 
