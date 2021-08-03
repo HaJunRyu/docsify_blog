@@ -137,6 +137,7 @@
 <details class="sub-details">
     <summary>2021년 8월</summary>
 
+- - [20210803 cypress 문서 초반부 읽기, ts-react-redux-thunk](TIL/20210803-TIL-cypress-문서-초반부-읽기,ts-react-redux-thunk.md)
 - - [20210802 cypress기본, typesafe-actions](TIL/20210802-TIL-cypress기본,typesafe-actions.md)
 
 </details>
