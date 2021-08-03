@@ -135,6 +135,13 @@
     <summary>📖 TIL</summary>
 
 <details class="sub-details">
+    <summary>2021년 8월</summary>
+
+- - [20210802 cypress기본, typesafe-actions](TIL/20210802-TIL-cypress기본,typesafe-actions.md)
+
+</details>
+
+<details class="sub-details">
     <summary>2021년 7월</summary>
 
 - - [20210726 node LTS, React.memo](TIL/20210726-TIL-node-LTS,React-memo.md)
