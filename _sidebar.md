@@ -137,6 +137,7 @@
 <details class="sub-details">
     <summary>2021년 8월</summary>
 
+- - [202108011 Container, Presentational 디자인 패턴, Atomic 디자인 패턴](TIL/20210811-TIL-Container,Presentational-디자인-패턴,Atomic-디자인-패턴.md)
 - - [20210809 타입스크립트 책 정독 시작, 코드 스플리팅 적용, useCallback과 React.memo](TIL/20210809-TIL-타입스크립트-책-정독-시작,코드-스플리팅-적용,useCallback과-React.memo.md)
 - - [20210804 코드 스플리팅, 블랙커피 스터디 끝, 방황중](TIL/20210804-TIL-코드-스플리팅,블랙커피-스터디-끝,방황중.md)
 - - [20210803 cypress 문서 초반부 읽기, ts-react-redux-thunk](TIL/20210803-TIL-cypress-문서-초반부-읽기,ts-react-redux-thunk.md)
