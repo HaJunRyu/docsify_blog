@@ -1,4 +1,4 @@
-# 2021년 08월 11일 tn요일 TIL(Container, Presentational 디자인 패턴, Atomic 디자인 패턴)
+# 2021년 08월 11일 수요일 TIL(Container, Presentational 디자인 패턴, Atomic 디자인 패턴)
 
 ## 오늘 한 일과 느낀점
 
