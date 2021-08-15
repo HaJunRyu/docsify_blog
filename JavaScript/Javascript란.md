@@ -12,7 +12,7 @@
 
 예를 들어 현재 우리가 익숙하게 사용하고 있는 addEventListener 함수를 IE9 이전의 버전에서의 사용까지 고려한다면 방어코드를 따로 작성해줘야 한다.
 
-```jsx
+```javascript
 // IE9 이상 및 표준을 준수한 브라우저
 if ($button.addEventListener) {
   $button.addEventListener('click', () => console.log('click!'))
@@ -34,7 +34,7 @@ else if ($button.attachEvent) {
 
         기존 String.prototype.replace는 특정 문자열을 모두 변경하려면 정규표현식을 사용했어야 했지만 replaceAll을 사용하면 기존 replace를 사용하는것처럼 특정 문자열을 모두 변경 할 수 있다.
 
-        ```jsx
+        ```javascript
         const str = 'Hello World! Hello Javascript!';
         // 첫번째 Hello에만 영향을 줌
         str.replace('Hello', 'Hi'); // Hi World! Hello Javascript!
@@ -52,7 +52,7 @@ else if ($button.attachEvent) {
 
         예) 
 
-        ```jsx
+        ```javascript
         const pErr = new Promise((resolve, reject) => {
           reject('Always fails');
         });
@@ -71,7 +71,7 @@ else if ($button.attachEvent) {
 
         메모리에 요소에 대한 참조가 남아있는지 판단하기 위해 사용된다. 사용은 new 연산자와 함께 WeakRef를 호출하며 요소의 참조값을 넘겨주며 인스턴스를 생성하고 현재 구현되어있는 WeakRef.prototype으로는 WeakRef.prototype.deref()가 있다. 
 
-        ```jsx
+        ```javascript
         class Counter {
           constructor(element) {
             // Remember a weak reference to the DOM element
@@ -121,7 +121,7 @@ else if ($button.attachEvent) {
 
         이것과 관련해서 요소가 가비지컬렉팅 되기전에 실행되는 콜백함수를 전달 할 수 있는 FinalizationRegistry도 존재한다.
 
-        ```jsx
+        ```javascript
         const obj = { key: 'value' }
         const registry = new FinalizationRegistry((value) => {
           console.log(`${value} has been garbage collected`)
@@ -133,7 +133,7 @@ else if ($button.attachEvent) {
 
         +=, =+, /=. *= 처럼 비교 연산자도 사용할 수 있다. (아직 정식 출시는 아니라 web과 node에서 사용이 안되는것으로 확인)
 
-        ```jsx
+        ```javascript
         const truthy = true;
         const falsy = false;
 
@@ -148,7 +148,7 @@ else if ($button.attachEvent) {
 
         number값을 사용할때 길이가 길어지면 구분하기 힘든 문제를 _를 쓰면 개발자가 구분하기 위한 용도로만 사용되게끔 하는 기능이다.
 
-        ```jsx
+        ```javascript
         const number = 1_000_000_000;
         ```
 

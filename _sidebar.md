@@ -3,6 +3,7 @@
 <details>
     <summary>🐤 Javascript</summary>
 
+- - [JavaScript란](JavaScript\Javascript란.md)
 - - [1바이트는 왜 8비트인가](JavaScript/1바이트는_왜_8비트인가.md)
 - - [모듈](JavaScript/모듈.md)
 - - [제너레이터-async-await](JavaScript/제너레이터-async-await.md)
