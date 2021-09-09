@@ -17,6 +17,7 @@
 
 - - [Typescript란?](Typescript/Typescript란.md)
 - - [개발환경](Typescript/개발-환경.md)
+- - [tsconfig.json](Typescript/tsconfig.json.md)
 - - [타입 기본](Typescript/타입-기본.md)
 - - [인터페이스](Typescript/인터페이스.md)
 - - [타입 별칭(Type Aliases)과 인터페이스와의 차이](<Typescript/타입-별칭(Type-Aliases)과-인터페이스와의-차이.md>)
