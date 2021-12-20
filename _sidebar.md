@@ -128,6 +128,7 @@
 - - [for문을 활용한 별 찍기](알고리즘&자료구조/for문을-활용한-별찍기.md)
 - - [양방향 연결 리스트 (Doubly Linked List)](알고리즘&자료구조/DoublyLinkedList.md)
 - - [진법 변환](알고리즘&자료구조/진법-변환.md)
+- - [Big-O Notation](알고리즘&자료구조/Big-O-Notation.md)
 
 </details>
 
