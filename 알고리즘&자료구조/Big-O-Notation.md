@@ -26,7 +26,7 @@ Big-O Notation에는 2가지 규칙이 있다.
 
 ## Big-O Notation의 시간복잡도
 
-![Big O Notation Graph](./images/big-o-chart.webp)
+![Big O Notation Graph](./images/big-o-chart.webp)  
 <cite>사진 출처 - https://danielmiessler.com/study/big-o-notation/</cite>
 
 - ### O(1) (Constant)
