@@ -68,6 +68,14 @@
 </details>
 
 <details>
+    <summary>🌏 Web</summary>
+
+- - [pixel](Web/pixel.md)
+- - [웹 폰트](Web/웹-폰트.md)
+
+</details>
+
+<details>
     <summary>💻 ComputerScience</summary>
 
 - - [인터프리터언어와 컴파일러언어](ComputerScience/인터프리터언어와-컴파일러언어.md)
@@ -90,13 +98,6 @@
     <summary>🧊 webpack</summary>
 
 - - [webpack](Webpack/webpack.md)
-
-</details>
-
-<details>
-    <summary>🌏 web</summary>
-
-- - [pixel](web/pixel.md)
 
 </details>
 
