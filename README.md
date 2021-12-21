@@ -7,4 +7,6 @@
 🖼 [Instagram](https://www.instagram.com/lyu_gw)  
 ✉️ <a href="mailto:fbgkwns@gmail.com">Email</a>
 
+> 틀린 내용이나 보충해주실 내용이 있다면 언제든 제 블로그 [github repository issue](https://github.com/HaJunRyu/docsify_blog/issues)로 남겨주셔도 좋습니다 :)
+
 > 모바일 환경에서는 좌측 하단 **사이드 바**를 여는 초록색 버튼을 클릭해주세요 🤠
