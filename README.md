@@ -4,10 +4,10 @@
 **더 나은 사용자경험에 관심이 많고 기록하는것을 중요하게 생각합니다.**
 
 📦 [Github](https://github.com/HaJunRyu)  
-📦 [Portfolio](https://hajun-ryu.oopy.io)  
+🤵 [Portfolio](https://hajun-ryu.oopy.io)  
 🖼 [Instagram](https://www.instagram.com/lyu_gw)  
 ✉️ <a href="mailto:fbgkwns@gmail.com">Email</a>  
-📦 [LinkedIn](https://www.linkedin.com/in/hajun-ryu-016216220)
+🔗 [LinkedIn](https://www.linkedin.com/in/hajun-ryu-016216220)
 
 > 틀린 내용이나 보충해주실 내용이 있다면 언제든 제 블로그 [github repository issue](https://github.com/HaJunRyu/docsify_blog/issues)로 남겨주셔도 좋습니다 :)
 
