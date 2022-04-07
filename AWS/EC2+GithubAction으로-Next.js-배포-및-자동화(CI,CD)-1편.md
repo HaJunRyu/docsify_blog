@@ -121,13 +121,13 @@ mv  ~/Downloads/ap2-key-pair.pem ~/.ssh
 chmod 400 ~/.ssh/ap2-key-pair.pem
 ```
 
-그 후 pem키를 이용하여 EC2 인스턴스의에 접근해보자.
+그 후 pem키를 이용하여 EC2 인스턴스에 접근해보자.
 
 ```shell
 ssh -i ~/.ssh/ap2-key-pair.pem ubuntu@3.39.127.148
 ```
 
-`ubuntu@` 뒤의 IP 주소는 아까 할당받아 연결한 탄력적 IP주소를 적어준다.
+`ubuntu@` 뒤의 IP 주소는 아까 할당받아 EC2 인스턴스에 연결한 탄력적 IP주소를 적어준다.
 
 ![EC2 인스턴스 SSH접속 성공 화면](./images/ec2-ssh-success.png)
 
@@ -157,7 +157,7 @@ sudo ./install auto > /tmp/logfile
 sudo service codedeploy-agent status
 ```
 
-해당 명령어를 입력했을때 위 사진같이 active(running) 상태가 나온다면 EC2 인스턴스에 CodeDeploy 에이전트의 설치는 끝난것이다.
+해당 명령어를 입력했을때 위 사진같이 active(running) 상태가 나온다면 EC2 인스턴스에 CodeDeploy 에이전트 설치는 끝난것이다.
 
 ---
 
@@ -169,8 +169,8 @@ sudo service codedeploy-agent status
 ![역할 메뉴에서 역할 만들기 클릭](./images/role-button.png)
 ![사용 사례에서 EC2 선택](./images/choose-use-case.png)
 
-IAM 서비스를 검색하여 접근 후 역할 메뉴에서 역할 만들기 버튼을 누른다.
-그리고 신뢰할 수 있는 엔터티 유형에서 AWS 서비스를 선택 후 사용 사례를 EC2를 선택해준다.
+상단 검색바를 이용해 IAM 서비스에 접근 후 역할 메뉴에서 역할 만들기 버튼을 누른다.  
+그리고 신뢰할 수 있는 엔터티 유형에서 AWS 서비스를 선택 후 사용 사례를 EC2를 선택해준다.  
 그리고 다음 버튼을 눌러준다.
 
 그 후 권한 추가를 해줄것이다.
