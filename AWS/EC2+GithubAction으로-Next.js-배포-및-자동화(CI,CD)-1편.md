@@ -86,7 +86,6 @@ CodeDeploy에 정의한 동작이 tag로 매칭된 EC2인스턴스에 실행되�
 ![탄력적 IP 버튼 누르기](./images/elastic-ip-button.png)
 ![탄력적 IP 할당 버튼 클릭](./images/elstic-ip-allocate.png)
 ![탄력적 IP 할당](./images/allocate-button.png)
-![생선된 탄력적 IP 클릭](./images/allocate-button.png)
 
 (선택사항) EC2인스턴스를 그냥 사용하게 되면 IP가 동적으로 변경되게 된다. 만약 도메인을 할당해 사용한다면 필수적으로 탄력적 IP를 할당받아 인스턴스에 적용 시켜줘야한다. 일단 네트워크 및 보안 > 탄력적 IP 메뉴에 진입하여 탄력적 IP를 할당받자.
 
