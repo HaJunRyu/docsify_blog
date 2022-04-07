@@ -193,7 +193,7 @@ IAM 서비스를 검색하여 접근 후 역할 메뉴에서 역할 만들기 �
 > 혹시 EC2에 접근했는데 인스턴스가 보이지 않는다면 우측 상단의 지역 설정이 제대로 되어있는지 확인해보자.
 
 ![EC2 IAM 역할 수정](./images/edit-ec2-iam-role.png)
-![EC2 IAM 역할 수정](./images/select-ec2-iam-role.png)
+![EC2 IAM 역할 저장](./images/select-ec2-iam-role.png)
 
 생성한 인스턴스의 IAM역할 수정 메뉴에 접근하여 방금 만든 `ec2-iam` role을 선택해준 후 저장 버튼을 눌러준다.
 
