@@ -43,6 +43,13 @@
 </details>
 
 <details>
+    <summary>💰 AWS</summary>
+
+- - [EC2 + Github Actions로 Next.js 배포 및 자동화(CI/CD) - 1편: AWS EC2 생성 및 설정](<AWS/EC2+GithubAction으로-Next.js-배포-및-자동화(CI,CD)-1편.md>)
+
+</details>
+
+<details>
     <summary>📝 HTML</summary>
 
 - - [인용문(q, blockquote)](HTML/인용문-q,blockquote.md)
